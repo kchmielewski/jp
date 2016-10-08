@@ -2,14 +2,13 @@
 
 ###Zjazd 1
 
-1. mkdir- tworzy plik
-2. ls- sprawdza zawartość
-3. cal- kalendarz
-4. man- poradnik
-5. touch- tworzenie pliku .txt
-6. zapoznanie się z github
-
-* cos
+1. terminal
+* mkdir- tworzy plik
+* ls- sprawdza zawartość
+* cal- kalendarz
+* man- poradnik
+* touch- tworzenie pliku .txt
+2. zapoznanie się z github
 
 - [x] laboratorium
 - [ ] wykłady
