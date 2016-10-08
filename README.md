@@ -16,7 +16,10 @@
 - [x] laboratorium
 - [ ] wykłady
 </br>
-www.google.pl
+
+http://wbzyl.inf.ug.edu.pl/sp/
+
+https://guides.github.com/features/mastering-markdown/
 </br>
 *Karol Chmielewski*</br>
 **Karol Chmielewski**
