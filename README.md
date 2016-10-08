@@ -1,30 +1,18 @@
 ## Języki programowania
 
-Sometimes you want numbered lists:
+1. saa
+2. asa
+3. wew
 
-1. One
-2. Two
-3. Three
+* coś
+* cos
 
-Sometimes you want bullet points:
+![zdjęcie](https://camo.githubusercontent.com/5215e6fe0e2fc740eb8d91fe380287294fcacca5/68747470733a2f2f6f63746f6465782e6769746875622e636f6d2f696d616765732f79616b746f6361742e706e67)
 
-* Start a line with a star
-* Profit!
-
-Alternatively,
-
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
-  
-  If you want to embed images, this is how you do it:
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+- [x] laboratorium
+- [ ] wykłady
 
 www.google.pl
+
+*Karol Chmielewski*
+**Karol Chmielewski**
