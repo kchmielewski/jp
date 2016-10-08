@@ -1,13 +1,15 @@
 ## Języki programowania
 
-1. saa
-2. asa
-3. wew
+###Zjazd 1
 
-* coś
+1. mkdir- tworzy plik
+2. ls- sprawdza zawartość
+3. cal- kalendarz
+4. man- poradnik
+5. touch- tworzenie pliku .txt
+6. zapoznanie się z github
+
 * cos
-
-![zdjęcie](https://camo.githubusercontent.com/5215e6fe0e2fc740eb8d91fe380287294fcacca5/68747470733a2f2f6f63746f6465782e6769746875622e636f6d2f696d616765732f79616b746f6361742e706e67)
 
 - [x] laboratorium
 - [ ] wykłady
