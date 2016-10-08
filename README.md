@@ -12,12 +12,11 @@
  *tworzenie konta
  *zakładanie repozytorium
  *obsługa pliku readme
- 
-
+ </br>
 - [x] laboratorium
 - [ ] wykłady
-
+</br>
 www.google.pl
-
+</br>
 *Karol Chmielewski*</br>
 **Karol Chmielewski**
