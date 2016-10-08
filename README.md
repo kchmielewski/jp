@@ -23,6 +23,3 @@ https://guides.github.com/features/mastering-markdown/
 </br>
 *Karol Chmielewski*</br>
 **Karol Chmielewski**
-
-```lol
-ldl
