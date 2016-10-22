@@ -20,6 +20,13 @@
 http://wbzyl.inf.ug.edu.pl/sp/
 
 https://guides.github.com/features/mastering-markdown/
-</br>
-*Karol Chmielewski*</br>
-**Karol Chmielewski**
+
+##Zjazd 2
+
+1. Github
+ * konfiguracja
+ * pull request
+1. Atom
+  * zainstalowanie pakietów
+  * konfiguracja
+  
