@@ -26,7 +26,9 @@ https://guides.github.com/features/mastering-markdown/
 1. Github
  * konfiguracja
  * pull request
-1. Atom
+  
+![zdjecie](https://softcover.s3.amazonaws.com/636/learn_enough_git/images/figures/git_status_sequence.png)
+
+2. Atom
   * zainstalowanie pakietów
   * konfiguracja
-  
