@@ -14,7 +14,7 @@
  * obsługa pliku readme
  </br>
 - [x] laboratorium
-- [ ] wykłady
+- [x] wykłady
 </br>
 
 http://wbzyl.inf.ug.edu.pl/sp/
