@@ -20,8 +20,8 @@ void elementy( int tablica[] ){
         int tablica[5];
 
         elementy(tablica);
-        printf("\nPodales nastepujace liczby:\n");
+        printf("\nWpisane przez Ciebie liczby:\n");
         liczby(tablica);
-        printf("\nPodales nastepujace liczby(odwrotnie):\n");
+        printf("\nWpisane przez Ciebie liczby(odwrotnie):\n");
         liczby2(tablica);
       }
