@@ -1,19 +1,28 @@
 #include <stdio.h>
-  void elementy( double tablica[] ){
-    int i;
-    int dod;
-    for (i = 0; i <= 5; i++){
-      printf("Podaj liczbę: ");
-      scanf("%lf", &tablica[i]);
-      if (tablica[i] > 0)
-        dod+=1;
-}
-printf("Ilość liczb dodatnich: %d\n", dod);
+
+int zlicz_dodatnie(double tab[], int size){
+  int dod = 0;
+  double liczba;
+
+  for (int i = 0; i <= 6; i++){
+    printf("Podaj liczbę: ");
+    scanf("%lf", &liczba);
+    if (liczba > 0)
+    dod+=1;
   }
-      int main() {
-        double tablica[6];
+  return dod;
+}
+  void wczytaj_6(double tab[]){
+//
+  }
+  void wypisz_wynik(int k){
+    printf("Liczba liczb dodatnich: %d\n", k);
+  }
+int main() {
+  double tablica[6];
+  //int ile_dodatnich;
 
-        elementy(tablica);
-
-
-      }
+  wczytaj_6(tablica);
+//  ile_dodatnich = zlicz_dodatnie(tablica, 6);
+  wypisz_wynik(zlicz_dodatnie(tablica, 6));
+}

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void elementy( int tablica[] ){
+void wczytaj_6_liczb( int tablica[]){
   int i;
   for (i = 0; i <= 5; i++){
     printf("Podaj liczbę: ");
@@ -19,7 +19,7 @@ void elementy( int tablica[] ){
       int main() {
         int tablica[5];
 
-        elementy(tablica);
+        wczytaj_6_liczb(tablica);
         printf("\nWpisane przez Ciebie liczby:\n");
         liczby(tablica);
         printf("\nWpisane przez Ciebie liczby(odwrotnie):\n");

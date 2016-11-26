@@ -1,20 +1,21 @@
 #include <stdio.h>
-int sumowanie(int d) {
-  int s=0;
-  int j=1;
-    if (d<j){
-      printf("Błąd, podałeś liczbę mniejszą niż ");
-return j;    }
+#include <stdlib.h>
+
+int suma(int d) {
+  int suma=0;
+  if (d<1){
+    printf("Błąd, podałeś liczbę mniejszą niż 1\n");
+    exit(1);    }
     else {
       for (int p = 0; p <= d; p++)
-      s+=p;
+      suma+=p;
     }
-    return s;
-}
+    return suma;
+  }
 
-int main() {
-  int d;
-  printf("Wpisz liczbę większą od 1: ");
+  int main() {
+    int d;
+    printf("Wpisz liczbę większą od 1: ");
     scanf("%d", &d);
-  printf("%d\n", sumowanie(d));
-}
+    printf("%d\n", suma(d));
+  }

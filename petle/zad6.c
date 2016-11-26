@@ -12,12 +12,8 @@
     }
 
     printf("%lf %lf\n", min, max);
-
   }
       int main() {
         double tablica[5];
-
         elementy(tablica);
-
-
       }
