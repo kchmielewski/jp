@@ -6,7 +6,7 @@ void print_table_header(char *header1, char *header2) {
 //  | ----: | -----: |
 }
 // 3,14159 26535 89793
-przyblizenia_pi[] = {3.14, 3.141, 3.1415};
+//przyblizenia_pi[] = {3.14, 3.141, 3.1415};
 double leibniz(int n){
   double pi = 4;
   double dziel = 3;
@@ -24,8 +24,8 @@ return pi;
 }
 int main() {
   int liczba_skladnikow[] = {0, 100, 1000, 1000000};
-print_table_header("", "");
+
 for (int i = 0; i < 4; i++){
-printf("| %d | %.12lf|\n", liczba_skladnikow[i], leibniz(liczba_skladnikow[i]));
+printf("| %7d | %.20lf|\n", liczba_skladnikow[i], leibniz(liczba_skladnikow[i]));
   }
 }

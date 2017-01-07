@@ -16,7 +16,7 @@ long odwrot_liczby(long y) {
 int main()
 {
    long y, x;
-
+   printf("Podaj liczbę, a wypiszę ci jej odwrotność: ");
    scanf("%ld", &y);
 
    x = odwrot_liczby(y);

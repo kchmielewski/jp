@@ -13,7 +13,7 @@ int c,  nb = 0, nt = 0, nl = 0;
      ++nl;
 
    }
+   printf("liczba znaków odstępu = %d, tabulacji = %d, nowego wiersza = %d\n", nb, nt, nl);
 }
-printf("liczba znaków odstępu = %d, tabulacji = %d, nowego wiersza = %d\n", nb, nt, nl);
 
 }

@@ -4,7 +4,7 @@ int zlicz_dodatnie(double tab[], int size){
   int dod = 0;
   double liczba;
 
-  for (int i = 0; i <= 6; i++){
+  for (int i = 0; i <= 5; i++){
     printf("Podaj liczbę: ");
     scanf("%lf", &liczba);
     if (liczba > 0)
@@ -19,7 +19,7 @@ int zlicz_dodatnie(double tab[], int size){
     printf("Liczba liczb dodatnich: %d\n", k);
   }
 int main() {
-  double tablica[6];
+  double tablica[5];
   //int ile_dodatnich;
 
   wczytaj_6(tablica);

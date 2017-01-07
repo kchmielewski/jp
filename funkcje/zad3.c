@@ -4,7 +4,7 @@ void liczby_doskonale(){
   int przedzial,j;
   int suma = 0;
 
-  for(przedzial = 2; przedzial<35000000; przedzial++)
+  for(przedzial = 2; przedzial<10000; przedzial++)
   {
      for(j = 1; j<przedzial; j++)
      {

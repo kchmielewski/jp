@@ -1,7 +1,9 @@
 #include <stdio.h>
-  void elementy( double tablica[] ){
+  void elementy( double tablica[]){
     int i;
-    double max, min;
+    double max = 0;
+    double min = i;
+
     for (i = 0; i <= 5; i++){
       printf("Podaj liczbę: ");
       scanf("%lf", &tablica[i]);
@@ -14,6 +16,7 @@
     printf("%lf %lf\n", min, max);
   }
       int main() {
+
         double tablica[5];
         elementy(tablica);
       }

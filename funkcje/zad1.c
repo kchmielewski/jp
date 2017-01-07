@@ -10,7 +10,7 @@ void przeciwprostokatna(){
   scanf ("%lf", &b);
 
 c=sqrt(a*a+b*b);
-printf ("Długość przeciwprostokątnej wynosi: %lf\n", c);
+printf ("%lf %lf %lf\n", a, b, c);
 }
 
 int main() {
