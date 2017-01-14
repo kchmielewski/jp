@@ -6,7 +6,7 @@ char* zwraca_wskaznik(char *wsk);
 int main(void)
 {
 	char* napis = "    ala ma kota    ";
-	printf("napis: \"%s\"\n", zwraca_wskaznik(napis));
+	printf("napis:%s\n", zwraca_wskaznik(napis));
 
 	return 0;
 }
