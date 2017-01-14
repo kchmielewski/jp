@@ -1,0 +1,3 @@
+	Zadanie "zad6.c"- przy kompilacji wyskakuje warning oraz po
+ uruchomieniu jest **stack smashing detected**. Nie wiem jak to naprawić, lecz
+i z tym program działa i prawidłowo pokazuje.
