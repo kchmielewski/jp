@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main () {
-  int ref[] = {8, 4, 1, 2};
+  int ref[] = {8, 4, -1, 2};
   int *wsk;
   int indeks;
+  int roznica;
   int min = ref[0];
   int max = ref[0];
   for (indeks = 0, wsk = ref; indeks < 4; indeks++, wsk++){
@@ -11,6 +12,8 @@ int main () {
       min = ref[indeks];
     if(ref[indeks]>max)
       max = ref[indeks];
+roznica = max - min;
     }
-    printf("%d %d\n", min, max);
+
+    printf("%d\n", roznica);
 }
