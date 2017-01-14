@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
-char* zwraca_wskaznik(char *str);
+char* zwraca_wskaznik(char *wsk);
 
 int main(void)
 {
@@ -11,8 +11,8 @@ int main(void)
 	return 0;
 }
 
-char* zwraca_wskaznik(char *str)
+char* zwraca_wskaznik(char *wsk)
 {
-	while(*str) if(!isspace(*str++)) break;
-	return str-1;
+	while(*wsk) if(!isspace(*wsk++)) break;
+	return wsk-1;
 }
