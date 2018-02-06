@@ -78,9 +78,6 @@ koniec = tail;
             tail = tail->poprzedni;
             head = koniec;
 
-            if (koniec->nastepny == NULL){
-              printf("%s\n", "okurwa");
-             }
     }
 
 void printujListe()
