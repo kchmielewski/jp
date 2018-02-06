@@ -1,5 +1,5 @@
 #include <stdio.h>
-<<<<<<< HEAD
+
 
 int main () {
   int ref[] = {8, 4, 1, 2};
@@ -14,9 +14,7 @@ int main () {
       max = ref[indeks];
     }
     printf("%d %d\n", min, max);
-=======
-int ref[] = {8, 4, -1, 2};
-int *wsk, indeks, roznica;
+
 
 
 void max_min(){
@@ -34,5 +32,4 @@ roznica = max - min;
 int main () {
 max_min();
     printf("%d\n", roznica);
->>>>>>> 8036cd0fca82c252570a38a0a66746779174b8e2
 }
