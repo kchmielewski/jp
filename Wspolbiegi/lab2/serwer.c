@@ -1,59 +1,58 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdio.h>
-#define WIADOMOSC 512
+#define MESSAGE 512
 
 int ESC = 27;
-//Odbieranie wiadomosci od klienta (bufor dane.txt)
+
 void receive()
 {
-   int dane = 0;
-   char bufor[WIADOMOSC] ={0x00,};
+   int data = 0;
+   char bufor[MESSAGE] ={0x00,};
 
-   while((dane = open("dane.txt", O_RDWR)) < 0)
+   while((data = open("dane.txt", O_RDWR)) < 0)
    {
 
    }
 
-   if(dane != 0)
+   if(data != 0)
    {
-		while(read(dane,bufor,512) < 1)
+		while(read(data,bufor,512) < 1)
 		{
 		}
 		printf("%s" , bufor);
    }
 }
 
-//Procedura wysylania tresci wiadomosci zwrotnej do klienta (bufor wyniki.txt)
 void send()
 {
-	int wyniki;
-	char bufor[WIADOMOSC] ={0x00,};
-	char znak[1] = {0x00,};
+	int results;
+	char bufor[MESSAGE] ={0x00,};
+	char character[1] = {0x00,};
 	int counter = 0;
 
-	while((wyniki = open("wyniki.txt", O_RDWR|O_CREAT|O_EXCL, 0711)) < 0)
+	while((results = open("wyniki.txt", O_RDWR|O_CREAT|O_EXCL, 0711)) < 0)
 	{
 
 	}
 
-	if(wyniki != 0)
+	if(results != 0)
 	{
-		printf("SERWER - NAPISZ WIADOMOSC ZWROTNA DLA KLIENTA:\n");
+		printf("SERWER:\n");
 		while(1)
 		{
-			read(0,znak,1);
+			read(0,character,1);
 
-			if(znak[0] == (char)ESC)
+			if(character[0] == (char)ESC)
 			{
-				write(wyniki, bufor, counter);
-				close(wyniki);
+				write(results, bufor, counter);
+				close(results);
 				break;
 			}
-			bufor[counter] = znak[0];
+			bufor[counter] = character[0];
 			counter++;
       unlink("lockfile");
-      unlink("dane.txt");
+      unlink("data.txt");
 		}
 	}
 }
@@ -62,7 +61,7 @@ void send()
 //Wywolywanie procedur
 int main()
 {
-	printf("KOMUNIKATOR TEKSTOWY - SERWER\n");
+	printf("SERWER\n");
 
 	while(1)
 	{
